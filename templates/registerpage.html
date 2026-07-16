@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <div class="Box">
+        <img src="{{url_for('static',filename='logo.avif') }}" alt="logo" class="logo">
+        <div class="blocks">
+            <div class="inputs">
+                <i class="fas fa-user icon"></i>
+                <input id="username" type="text" class="input" placeholder="username">
+            </div>
+            <div class="inputs">
+                <i class="fas fa-lock icon"></i>
+                <input id="password" type="password" class="input" placeholder="password">
+            </div>
+            <div class="inputs">
+                <i class="fas fa-lock icon"></i>
+                <input id="repassword" type="password" class="input" placeholder="password">
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
